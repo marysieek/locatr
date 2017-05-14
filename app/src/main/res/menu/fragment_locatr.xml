@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:android="http://schemas.android.com/apk/res-auto">
+    xmlns:pl.korlotian.locatr="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_locate"
         android:icon="@android:drawable/ic_menu_compass"
         android:title="@string/search"
         android:enabled="false"
-        android:showAsAction="ifRoom"/>
+        pl.korlotian.locatr:showAsAction="ifRoom"/>
 
 </menu>
