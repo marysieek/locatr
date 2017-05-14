@@ -7,6 +7,8 @@ public class GalleryItem {
     private String mId;
     private String mUrl;
     private String mOwner;
+    private double mLat;
+    private double mLon;
 
     @Override
     public String toString() {
@@ -29,6 +31,14 @@ public class GalleryItem {
         return mUrl;
     }
 
+    public double getLat() {
+        return mLat;
+    }
+
+    public double getLon() {
+        return mLon;
+    }
+
     public void setCaption(String caption) {
         mCaption = caption;
     }
@@ -43,6 +53,14 @@ public class GalleryItem {
 
     public void setOwner(String owner) {
         mOwner = owner;
+    }
+
+    public void setLat(double lat) {
+        mLat = lat;
+    }
+
+    public void setLon(double lon) {
+        mLon = lon;
     }
 
     public Uri getPhotoPageUri() {
